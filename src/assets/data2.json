@@ -1,0 +1,110 @@
+{
+  "totalentriesfound": 5,
+  "searchcriteria": {
+    "interface": null,
+    "domain": null,
+    "version": null,
+    "orderby": "participantId"
+  },
+  "page": {
+    "pagesize": 6,
+    "pageno": 1
+  },
+  "globaldiscoveryentries": [
+    {
+      "providerVersion": {
+        "majorVersion": 1,
+        "minorVersion": 2
+      },
+      "domain": "VIN-123456",
+      "interfaceName": "app1/v/if1",
+      "participantId": "ef86222e-c25e-40e0-84a9-617286398123",
+      "qos": {
+        "customParameters": [],
+        "priority": 12930100,
+        "scope": "GLOBAL",
+        "supportsOnChangeSubscriptions": true
+      },
+      "lastSeenDateMs": 81297391,
+      "expiryDateMs": 91297391,
+      "publicKeyId": "23:24:29:12:20:20:29:29:29:10:02:00:",
+      "address": "tcp://mqttdmz-e2e-emea.bmwgroup.de:1883"
+    },
+    {
+      "providerVersion": {
+        "majorVersion": 1,
+        "minorVersion": 2
+      },
+      "domain": "VIN-123456",
+      "interfaceName": "app1/v/if1",
+      "participantId": "aabd222-c25e-40e0-84a9-617286398123",
+      "qos": {
+        "customParameters": [],
+        "priority": 12930100,
+        "scope": "GLOBAL",
+        "supportsOnChangeSubscriptions": true
+      },
+      "lastSeenDateMs": 81297391,
+      "expiryDateMs": 91297391,
+      "publicKeyId": "23:24:29:12:20:20:29:29:29:10:02:00:",
+      "address": "tcp://mqttdmz-e2e-emea.bmwgroup.de:1883"
+    },
+    {
+      "providerVersion": {
+        "majorVersion": 1,
+        "minorVersion": 2
+      },
+      "domain": "VIN-123456",
+      "interfaceName": "app1/v/if1",
+      "participantId": "ae92368-c25e-1223-84a9-617286398123",
+      "qos": {
+        "customParameters": [],
+        "priority": 12930100,
+        "scope": "GLOBAL",
+        "supportsOnChangeSubscriptions": true
+      },
+      "lastSeenDateMs": 81297391,
+      "expiryDateMs": 91297391,
+      "publicKeyId": "23:24:29:12:20:20:29:29:29:10:02:00:",
+      "address": "tcp://mqttdmz-e2e-emea.bmwgroup.de:1883"
+    },
+    {
+      "providerVersion": {
+        "majorVersion": 1,
+        "minorVersion": 2
+      },
+      "domain": "VIN-123456",
+      "interfaceName": "app1/v/if1",
+      "participantId": "bbb2138-c25e-1223-84a9-617286398123",
+      "qos": {
+        "customParameters": [],
+        "priority": 12930100,
+        "scope": "GLOBAL",
+        "supportsOnChangeSubscriptions": true
+      },
+      "lastSeenDateMs": 81297391,
+      "expiryDateMs": 91297391,
+      "publicKeyId": "23:24:29:12:20:20:29:29:29:10:02:00:",
+      "address": "tcp://mqttdmz-e2e-emea.bmwgroup.de:1883"
+    },
+    {
+      "providerVersion": {
+        "majorVersion": 1,
+        "minorVersion": 2
+      },
+      "domain": "VIN-123456",
+      "interfaceName": "app1/v/if1",
+      "participantId": "78128-eae3293-a213821-d21388237-1238791238",
+      "qos": {
+        "customParameters": [],
+        "priority": 12930100,
+        "scope": "GLOBAL",
+        "supportsOnChangeSubscriptions": true
+      },
+      "lastSeenDateMs": 81297391,
+      "expiryDateMs": 91297391,
+      "publicKeyId": "23:24:29:12:20:20:29:29:29:10:02:00:",
+      "address": "tcp://mqttdmz-e2e-emea.bmwgroup.de:1883"
+    }
+  ]
+}

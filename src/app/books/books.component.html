@@ -1,0 +1,10 @@
+<p>
+  books works!
+</p>
+
+Books:
+<ul>
+  <li *ngFor="#book of books | async">
+    {{book.title}}
+  </li>
+</ul>

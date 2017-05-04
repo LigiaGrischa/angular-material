@@ -1,0 +1,22 @@
+{
+    "screenshots": [
+        {
+            "title": "Books",
+            "img": "assets/images/image2.jpg",
+            "description": "Das ist mein wunderbarer Beispieltext. Viel besser als lorem ipsum, denn das kennt schon jeder.",
+            "liked": 0
+        },
+        {
+            "title": "Maps",
+            "img": "assets/images/image3.jpg",
+            "description": "Das ist mein wunderbarer Beispieltext. Viel besser als lorem ipsum, denn das kennt schon jeder.",
+            "liked": 0
+        },
+        {
+            "title": "Coffee",
+            "img": "assets/images/image4.jpg",
+            "description": "Das ist mein wunderbarer Beispieltext. Viel besser als lorem ipsum, denn das kennt schon jeder.",
+            "liked": 0
+        }
+    ]
+}

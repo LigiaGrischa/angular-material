@@ -1,0 +1,26 @@
+<p>
+  planets works!
+</p>
+
+
+<md-divider></md-divider>
+
+<md-list>
+  <h3 md-subheader>Services</h3>
+  <md-list-item *ngFor="let element of elements">
+    <md-icon md-list-icon>note</md-icon>
+    <h3 md-line> {{element.domain}} </h3>
+    <p md-line>
+      <span> {{element.participantId}} </span>
+      <span> -- {{element.interfaceName}} </span>
+      <button md-button (click)="selectedPlanet(element)">Details</button>
+    </p>
+    <p>
+
+    </p>
+  </md-list-item>
+</md-list>
+
+<md-divider></md-divider>
+
+    <app-planets-detail></app-planets-detail>

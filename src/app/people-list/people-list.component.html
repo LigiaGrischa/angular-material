@@ -1,0 +1,21 @@
+<p>
+  people-list works!
+</p>
+
+<ul>
+   <li *ngFor="let person of people" (click)="selectPerson(person)">
+     {{person.name}}
+   </li>
+ </ul>
+
+<!--<people-details [person]="selectedPerson"></people-details>-->
+
+<app-person-details [person]="selectedPerson"></app-person-details>
+
+ <!--<section *ngIf="selectedPerson">
+    <h2>You selected:  {{selectedPerson.name}}</h2>
+    <h3>Description</h3>
+    <p>
+       {{selectedPerson.name}} weights  {{selectedPerson.weight}} and is  {{selectedPerson.height}} tall.
+    </p>
+  </section>-->
