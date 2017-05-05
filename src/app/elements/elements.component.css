@@ -1,0 +1,12 @@
+
+
+.myColumn140 {
+            max-width: 140px;
+            white-space: nowrap;
+            overflow: hidden;
+            padding: 5px;
+            text-overflow: ellipsis;
+        }
+.thTitle {
+                    font-weight: bold;
+  }

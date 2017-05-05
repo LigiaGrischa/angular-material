@@ -18,7 +18,7 @@ private baseUrl: string = 'http://localhost:8080/admin/v1/';
   */
   getElements(): Observable<Nature[]> {
           // ...calling .json() on the response to return data
-          return this.http.get('../assets/data2.json')
+          return this.http.get('../assets/data3.json')
                     .map(response => response.json().globaldiscoveryentries)
                             //...errors if any
                            .catch((error:any) => Observable.throw(error.json().error || 'Server error'));

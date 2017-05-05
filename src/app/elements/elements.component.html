@@ -1,25 +1,23 @@
-<p>
-  elements works!
-</p>
-<app-elements-detail [element]="selectedElement"></app-elements-detail>
-
-<md-divider></md-divider>
-
-<md-list>
-  <h3 md-subheader>Services</h3>
-  <md-list-item *ngFor="let element of elements">
-    <md-icon md-list-icon>note</md-icon>
-    <h3 md-line> {{element.domain}} </h3>
-    <p md-line>
-      <span> {{element.participantId}} </span>
-      <span> -- {{element.interfaceName}} </span>
-      <button md-button (click)="selectElement(element)">Details</button>
-      <span>
-
-      </span>
-
-
-  </md-list-item>
-</md-list>
-
-<md-divider></md-divider>
+<p></p>
+ <ng2-md-datatable selectable>
+  <ng2-md-datatable-header>
+    <ng2-md-datatable-column sortValue="article" class="thTitle">Domain</ng2-md-datatable-column>
+    <ng2-md-datatable-column sortValue="product" class="thTitle">Participant ID</ng2-md-datatable-column>
+    <ng2-md-datatable-column sortValue="quantity" class="thTitle">Interface</ng2-md-datatable-column>
+    <ng2-md-datatable-column sortValue="quantity" class="thTitle">Interface version</ng2-md-datatable-column>
+    <ng2-md-datatable-column sortValue="quantity" class="thTitle">Last seen</ng2-md-datatable-column>
+    <ng2-md-datatable-column sortValue="quantity" class="thTitle">Details</ng2-md-datatable-column>
+  </ng2-md-datatable-header>
+  <tbody>
+    <ng2-md-datatable-row *ngFor="let element of elements" selectableValue="{{element.participantId}}">
+      <td>{{element.domain}}</td>
+      <td class="myColumn140">{{element.participantId}}</td>
+      <td class="myColumn140">{{element.interfaceName}}</td>
+      <td class="myColumn140">{{element.providerVersion.majorVersion}}</td>
+      <td class="date">{{element.lastSeenDateMs}}</td>
+      <td>
+        <button md-button (click)="openDialog(element)">Details</button>
+      </td>
+    </ng2-md-datatable-row>
+  </tbody>
+</ng2-md-datatable>

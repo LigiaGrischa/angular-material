@@ -1,0 +1,76 @@
+
+<h1>{{ title }}</h1>
+<form class="example-form">
+
+<table>
+  <tr>
+    <td valign="top">
+<!-- left -->
+<table  class="tableLeft">
+<tr>
+  <td colspan="2"><md-input-container class="example-full-width">
+    <input mdInput placeholder="Domain" value="{{ myElement.domain }}">
+  </md-input-container></td>
+</tr>
+<tr>
+  <td colspan="2"><md-input-container class="example-full-width">
+    <input mdInput placeholder="Participant ID" value=" {{ myElement.participantId }}">
+  </md-input-container></td>
+</tr>
+<tr>
+  <td colspan="2"><md-input-container class="example-full-width">
+    <input mdInput placeholder="Interface Name" value=" {{ myElement.interfaceName }}">
+  </md-input-container></td>
+</tr>
+<tr>
+  <td colspan="2"><md-input-container class="example-full-width">
+    <input mdInput placeholder="Public KeyID" value="  {{ myElement.publicKeyId }}">
+  </md-input-container></td>
+</tr>
+<tr>
+  <td><md-input-container class="example-full-width">
+    <input mdInput placeholder="Last seen Date" value="  {{ myElement.lastSeenDateMs }}">
+  </md-input-container></td>
+  <td><md-input-container class="example-full-width">
+    <input mdInput placeholder="Expiration Time" value=" {{ myElement.expiryDateMs }}">
+  </md-input-container></td>
+</tr>
+</table>
+<!-- left end -->
+</td>
+<td valign="top">
+<!-- right -->
+<table class="tableRight">
+  <tr>
+    <td><md-input-container class="example-full-width">
+      <input mdInput placeholder="Priority" value=" {{ myElement.qos.priority }}">
+    </md-input-container></td>
+  </tr>
+  <tr>
+    <td><md-input-container class="example-full-width">
+      <input mdInput placeholder="Supports On Change Subscription" value="{{ myElement.qos.supportsOnChangeSubscriptions }}">
+    </md-input-container></td>
+  </tr>
+  <tr>
+    <td><md-input-container class="example-full-width">
+      <input mdInput placeholder="Scope" value="{{ myElement.qos.scope }}">
+    </md-input-container></td>
+  </tr>
+  <tr>
+    <td><md-input-container class="example-full-width">
+      <input mdInput placeholder="Custom Parameters" value="{{ myElement.qos.customParameters }}">
+    </md-input-container></td>
+  </tr>
+</table>
+<!-- right end-->
+</td>
+</tr>
+</table>
+
+</form>
+
+
+<button type="button" md-raised-button
+    (click)="dialogRef.close(true)">Close</button>
+<!--<button type="button" md-button
+    (click)="dialogRef.close()">Cancel</button>-->
